@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript Image Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="slider-container">
+			<div>
+				<div>
+					<div class="slider"  onmouseover="pause(this)" onmouseout="resume(this)"> 
+						<div class="img" id="first">
+							<img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/boat-164989_960_720.jpg">
+						</div>
+						<div class="img">
+							<img src="https://cdn.pixabay.com/photo/2014/10/26/17/19/fishermen-504098_960_720.jpg">
+						</div>
+						<div class="img">
+							<img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/spring-276014_960_720.jpg">
+						</div>
+						<div class="img">
+							<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg">
+						</div>
+						<div class="img">
+							<img src="https://cdn.pixabay.com/photo/2015/12/08/00/35/frosty-1081851_960_720.jpg">
+						</div>
+						<div class="img">
+							<img src="https://cdn.pixabay.com/photo/2016/08/25/19/17/boat-1620452_960_720.jpg">
+						</div>
+						<div class="img" id="last">
+							<img src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014711_960_720.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<button class="btn" id="prev">&#60;</button>
+			<button class="btn" id="next">&#62;</button>
+			<ul>
+				<li class="option" op-index="0"></li>
+				<li class="option" op-index="1"></li>
+				<li class="option" op-index="2"></li>
+				<li class="option" op-index="3"></li>
+				<li class="option" op-index="4"></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
